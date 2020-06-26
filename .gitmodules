@@ -1,0 +1,3 @@
+[submodule "dependencies/GUI_Wrapper"]
+	path = dependencies/GUI_Wrapper
+	url = https://github.com/philnik777/GUI_Wrapper.git
