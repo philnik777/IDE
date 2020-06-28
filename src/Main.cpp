@@ -1,3 +1,6 @@
 #include <Window.hpp>
 
-int main() {}
+int main()
+{
+	GUI::Window window("IDE");
+}
