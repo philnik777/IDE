@@ -11,4 +11,5 @@ add_subdirectory(src)
 
 add_executable(ide src/Main.cpp)
 target_link_libraries(ide PRIVATE ${DEP_LIBS})
+message("Dep Libs: ${DEP_LIBS}")
 target_include_directories(ide PRIVATE ${DEP_INCLUDES})
