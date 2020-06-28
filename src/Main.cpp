@@ -2,5 +2,8 @@
 
 int main()
 {
-	GUI::Window window("IDE");
+	auto mainWindow = GUI::Window::create("IDE");
+	mainWindow->visible(true);
+	mainWindow->setCloseCallback([mainWindow]() { mainWindow->close(); });
+	mainWindow->loop();
 }
